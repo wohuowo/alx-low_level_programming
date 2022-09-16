@@ -10,8 +10,6 @@ void print_number(int n)
 	int i, d, p, f;
 	int j;
 	char num[1000];
-	unsigned int z;
-	int m, b;
 
 	b = 10;
 
@@ -31,7 +29,7 @@ void print_number(int n)
 		if (n < 0)
 		{
 			n = n * -1;
-			_putchar ('-')
+			_putchar ('-');
 		}
 		z = n;
 	while (z / b > 9)
